@@ -1,0 +1,26 @@
+[
+  {
+    "id": 9001,
+    "html_url": "https://github.com/acme/widgets/issues/42#issuecomment-9001",
+    "user": { "login": "bob", "id": 1002 },
+    "created_at": "2026-10-02T10:00:00Z",
+    "updated_at": "2026-10-02T10:00:00Z",
+    "body": "I can reproduce on 2.1.0."
+  },
+  {
+    "id": 9002,
+    "html_url": "https://github.com/acme/widgets/issues/42#issuecomment-9002",
+    "user": { "login": "maintainer1", "id": 1003 },
+    "created_at": "2026-10-05T08:15:00Z",
+    "updated_at": "2026-10-05T08:15:00Z",
+    "body": "Looks like loadConfig() does not handle an empty parse result. PRs welcome."
+  },
+  {
+    "id": 9003,
+    "html_url": "https://github.com/acme/widgets/issues/42#issuecomment-9003",
+    "user": { "login": "carol", "id": 1004 },
+    "created_at": "2026-10-20T14:30:00Z",
+    "updated_at": "2026-10-20T14:30:00Z",
+    "body": "Still happening on main."
+  }
+]

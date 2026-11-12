@@ -1,0 +1,21 @@
+{
+  "url": "https://api.github.com/repos/acme/widgets/issues/42",
+  "html_url": "https://github.com/acme/widgets/issues/42",
+  "number": 42,
+  "title": "Crash when config file is empty",
+  "user": { "login": "alice", "id": 1001, "type": "User" },
+  "labels": [
+    { "id": 1, "name": "bug", "color": "d73a4a" },
+    { "id": 2, "name": "good first issue", "color": "7057ff" }
+  ],
+  "state": "open",
+  "assignee": null,
+  "assignees": [],
+  "comments": 3,
+  "created_at": "2026-10-01T09:00:00Z",
+  "updated_at": "2026-10-20T14:30:00Z",
+  "closed_at": null,
+  "author_association": "NONE",
+  "repository_url": "https://api.github.com/repos/acme/widgets",
+  "body": "Running `widgets init` with an empty `widgets.toml` throws `TypeError: Cannot read properties of undefined`.\n\nSteps: create empty file, run init."
+}

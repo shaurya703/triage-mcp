@@ -1,0 +1,30 @@
+{
+  "total_count": 1,
+  "incomplete_results": false,
+  "items": [
+    {
+      "name": "config.ts",
+      "path": "src/config.ts",
+      "sha": "abc123",
+      "html_url": "https://github.com/acme/widgets/blob/main/src/config.ts",
+      "repository": { "full_name": "acme/widgets" },
+      "score": 1.0,
+      "text_matches": [
+        {
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "export function loadConfig(path: string) {\n  const parsed = parse(readFileSync(path));\n  return parsed.widgets.items;",
+          "matches": [{ "text": "loadConfig", "indices": [16, 26] }]
+        }
+      ]
+    },
+    {
+      "name": "cli.ts",
+      "path": "src/cli.ts",
+      "sha": "def456",
+      "html_url": "https://github.com/acme/widgets/blob/main/src/cli.ts",
+      "repository": { "full_name": "acme/widgets" },
+      "score": 0.8
+    }
+  ]
+}

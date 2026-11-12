@@ -1,0 +1,32 @@
+{
+  "total_count": 2,
+  "incomplete_results": false,
+  "items": [
+    {
+      "html_url": "https://github.com/acme/widgets/issues/42",
+      "number": 42,
+      "title": "Crash when config file is empty",
+      "user": { "login": "alice" },
+      "labels": [{ "name": "bug" }, { "name": "good first issue" }],
+      "state": "open",
+      "assignees": [],
+      "comments": 3,
+      "created_at": "2026-10-01T09:00:00Z",
+      "updated_at": "2026-10-20T14:30:00Z",
+      "body": "Running `widgets init` with an empty config throws."
+    },
+    {
+      "html_url": "https://github.com/acme/widgets/issues/17",
+      "number": 17,
+      "title": "Config parser accepts duplicate keys",
+      "user": { "login": "dave" },
+      "labels": [],
+      "state": "open",
+      "assignees": [],
+      "comments": 0,
+      "created_at": "2026-08-11T09:00:00Z",
+      "updated_at": "2026-09-02T09:00:00Z",
+      "body": null
+    }
+  ]
+}
